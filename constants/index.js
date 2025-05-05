@@ -63,12 +63,14 @@ export const insights = [
   {
     imgUrl: '/planet-07.png',
     title: 'Nugget Template',
+    url:"https://nugget-clone.vercel.app/",
     subtitle:
         'This Nugget Template is a modern AI agent website template designed for showcasing intelligent assistants',
   },
   {
     imgUrl: '/planet-08.png',
     title: 'Nedzo Template',
+    url:"https://nedzoclone.vercel.app/",
     subtitle:
         'Another best  modern AI agent website template designed for showcasing intelligent assistants.',
   },
