@@ -16,7 +16,7 @@ const InsightCard = ({ index, imgUrl, title, subtitle, url }) => (
         <p className="mt-[16px] font-normal lg:text-[20px] text-[14px] text-secondary-white">{subtitle}</p>
       </div>
 
-      <Link href={'/'} className="lg:flex hidden items-center justify-center w-[100px] h-[100px] rounded-full bg-transparent border-[1px] border-white">
+      <Link href={url} className="lg:flex hidden items-center justify-center w-[100px] h-[100px] rounded-full bg-transparent border-[1px] border-white">
         <img src="arrow.svg" alt="arrow" className="w-[40%] h-[40%] object-contain" />
       </Link>
     </div>
